@@ -6,7 +6,7 @@
 **Priority:** High (provisional)  
 **Status:** New  
 **Environment:** Windows, Microsoft Edge  
-**Related test cases:** TC-CART-10, TC-CART-11, TC-CART-12, TC-CART-13
+**Related test cases:** TC-CART-10, TC-CART-11, TC-CART-12, TC-CART-13, TC-PRODUCTS-05
 
 ## Description
 
@@ -54,6 +54,7 @@ Further testing showed that negative quantities can also affect existing cart it
 
 - Adding a quantity of -5 to an existing Blue Top quantity of 3 resulted in a cart quantity of -2.
 - The resulting subtotal was -1000.
+- The Quantity field is validated inconsistently: letters cannot be entered, and decimal (`1.5`) and empty values are not added to the cart, while `0` and negative values are accepted. This suggests that the check for a positive value is missing. (See TC-PRODUCTS-05.)
 - The checkout page accepted the cart with invalid quantities.
 - Clicking Place Order opened the payment form.
 

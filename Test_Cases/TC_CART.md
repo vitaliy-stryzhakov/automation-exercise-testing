@@ -230,6 +230,8 @@ The application accepted both values. Products with quantities 0 and -1 were add
 
 **Related bug:** BUG-CART-01
 
+**Related test case:** TC-PRODUCTS-05
+
 ---
 
 ### TC-CART-11 — Verify cart behavior when adding a negative quantity to an existing product
