@@ -26,7 +26,7 @@ The following modules are included in the testing scope:
 - Login and Logout
 - Shopping Cart
 - Products (product list, product details, search, categories and brands, product reviews)
-- API (manual testing with Postman) — planned
+- API (manual testing with Postman)
 
 Additional modules may be included later.
 
@@ -46,6 +46,7 @@ The following testing techniques and types are used:
 - UI Testing
 - Retesting (when applicable)
 - Regression Testing (when applicable)
+- API Testing (manual, using Postman)
 
 ## 6. Test Environment
 
@@ -53,6 +54,7 @@ The following testing techniques and types are used:
 - **Browser:** Microsoft Edge
 - **Testing Type:** Manual Testing
 - **Application:** Automation Exercise website
+- **API testing tool:** Postman
 
 ## 7. Test Deliverables
 
@@ -62,7 +64,8 @@ The following testing techniques and types are used:
 | Test Cases — Login | TC_LOGIN.md | Completed |
 | Test Cases — Cart | TC_CART.md | Completed |
 | Test Cases — Products | TC_PRODUCTS.md | Completed |
-| Test Cases — API | TC_API.md | Planned |
+| Test Cases — API | TC_API.md | In progress |
 | Bug Report — Login | BUG_LOGIN_01.md | Completed |
 | Bug Report — Cart | BUG_CART_01.md | Completed |
+| Bug Report — API | BUG_API_01.md | Completed |
 | Test Summary Report | — | Not prepared yet |
