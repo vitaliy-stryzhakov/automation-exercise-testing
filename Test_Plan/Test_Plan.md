@@ -26,7 +26,7 @@ The following modules are included in the testing scope:
 - Login and Logout
 - Shopping Cart
 - Products (product list, product details, search, categories and brands, product reviews)
-- API (manual testing with Postman)
+- API (manual testing with Postman: products, brands, product search, user login and account management)
 
 Additional modules may be included later.
 
@@ -68,4 +68,5 @@ The following testing techniques and types are used:
 | Bug Report — Login | BUG_LOGIN_01.md | Completed |
 | Bug Report — Cart | BUG_CART_01.md | Completed |
 | Bug Report — API | BUG_API_01.md | Completed |
+| Postman Collection — API | API/Automation_Exercise_API.postman_collection.json | In progress |
 | Test Summary Report | — | Not prepared yet |

@@ -227,12 +227,14 @@ All queries returned the same results.
 2. Click the search button.
 
 **Expected Result:**
-All products containing the entered text in their names are displayed.
+All products whose name or category contains the entered text are displayed.
 
 **Actual Result:**
-All products containing the entered text in their names were displayed.
+All products whose name or category contains the entered text were displayed.
 
 **Status:** PASS
+
+**Note:** The search also matches the product category. See TC-API-05 and API-OBS-05.
 
 ---
 
